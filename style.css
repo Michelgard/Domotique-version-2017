@@ -1,0 +1,59 @@
+/* init */
+
+@font-face{
+    font-family : "eraserregular";
+    src : url('Eraser.ttf');
+}
+
+body{
+	background-color  	: rgba(0, 0, 0, 1);
+	width             	: 100%;
+	height            	: 100%;
+	background-image	: url(fond_cuir.jpg);
+	color             	: #000;
+}
+	
+input:focus {
+    outline	: none;
+}
+
+
+table#table_prise_titre
+{
+	width			: 95%;
+	border			: 0; 
+	text-align      : center;
+	border			: 5px solid black;
+	border-color	: blue;
+	border-radius	: 10px;
+}
+
+tr#prise_titre
+{
+	text-align      : center;
+}
+
+td#td_titre_prise
+{
+	font-size       : 35px;
+	color			: #00F;
+	font-family     : 'eraserregular';
+}
+
+td#td_prise_titre
+{
+	font-size       : 25px;
+	color			: #FFF;
+	font-family     : 'eraserregular';
+}
+
+td#td_prise_bouton
+{
+	padding			:30px;
+}
+
+td#td_vide
+{
+	width			:3%;
+	
+}
